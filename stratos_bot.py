@@ -6,7 +6,7 @@ from datetime import datetime
 import requests  # 🔴 ADD THIS FOR RUGCHECK API
 
 # ===== CONFIGURATION - CHANGE THESE VALUES =====
-DISCORD_BOT_TOKEN = MTQxMjczMTY1MTgwMDMwMTY5MQ.GSJ4-A.IweapqwzzbyteS8_BhGBLYw_8SQQUv-SwjJAmY  # 🔴 REPLACE WITH YOUR ACTUAL TOKEN
+DISCORD_BOT_TOKEN = MTQxMjczMTY1MTgwMDMwMTY5MQ.G30V_W.JZKr_oh1n19VPSapj1PUjgfYw5v-sd2sqUn9A0  # 🔴 REPLACE WITH YOUR ACTUAL TOKEN
 CHANNEL_ID = 1409166449141878927  # #war-chat channel ID
 # ==============================================
 
