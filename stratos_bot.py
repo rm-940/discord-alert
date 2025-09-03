@@ -5,10 +5,15 @@ import asyncio
 from datetime import datetime
 import requests  # 🔴 ADD THIS FOR RUGCHECK API
 
-# ===== CONFIGURATION - CHANGE THESE VALUES =====
-DISCORD_BOT_TOKEN = MTQxMjczMTY1MTgwMDMwMTY5MQ.G30V_W.JZKr_oh1n19VPSapj1PUjgfYw5v-sd2sqUn9A0  # 🔴 REPLACE WITH YOUR ACTUAL TOKEN
-CHANNEL_ID = 1409166449141878927  # #war-chat channel ID
-# ==============================================
+import os
+from dotenv import load_dotenv  # 🔴 Install this package: pip install python-dotenv
+
+# Load environment variables from .env file
+load_dotenv()
+
+# Get the token safely
+DISCORD_BOT_TOKEN = os.getenv('DISCORD_BOT_TOKEN')  # 🔴 THIS IS NOW SAFE
+CHANNEL_ID = 1409166449141878927
 
 # Initialize Bot
 intents = discord.Intents.default()
